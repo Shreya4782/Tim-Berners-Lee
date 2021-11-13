@@ -1,0 +1,68 @@
+body{
+text-align: center;
+margin: 0;
+padding-top: 700px;
+}
+.pic{
+width: 200px;
+border-radius: 50%;
+}
+#welcome{
+    position: absolute;
+    height: 800px;
+    color: aliceblue;
+    background: linear-gradient(#37822a,#b0cad6);
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+height:100%;
+    display:table;
+	z-index: 20;
+}
+.welcome_inner{
+    display: table-cell;
+    position: relative;
+    vertical-align: middle;
+}
+#name{
+    font-size: 35px;
+    line-height: 1.2;
+	font-family: 'Yuji Syuku', serif;
+    
+}
+.line{
+    height: 6px;
+    width: 70px;
+    background-color: cadetblue;
+      margin: 8px auto; 
+    
+}
+p{
+  font-size: 17px;
+    line-height: 1.2;
+    margin: 35px auto;
+}
+.ul{
+	list-style:none;
+	position: absolute;
+    top:5px;
+    right: 30px;
+	z-index: 40;
+	cursor: pointer;
+	
+}
+.list_item{
+display: inline;
+padding-top:10px;
+padding-bottom:6px;
+	padding-left:12px;
+	padding-right:7px;
+font-family: cursive;
+	font-size: 25px;
+	color: aquamarine;
+}
+.list_item:hover{
+	background-color: azure;
+}
