@@ -46,11 +46,14 @@ p{
 }
 .ul{
 	list-style:none;
-	position: absolute;
+	position: fixed;
     top:5px;
     right: 30px;
 	z-index: 40;
 	cursor: pointer;
+	width: 100%;
+	background-color: cornsilk;
+	margin-top: 0px;
 	
 }
 .list_item{
@@ -59,10 +62,35 @@ padding-top:10px;
 padding-bottom:6px;
 	padding-left:12px;
 	padding-right:7px;
-font-family: cursive;
+font-family: fantasy;
 	font-size: 25px;
-	color: aquamarine;
+text-shadow: none!important;	
+	
 }
 .list_item:hover{
-	background-color: azure;
+	background-color:cadetblue;
+	font-size: 30px;
+	text-decoration: underline;
+}
+.anchor:hover{
+color:darkviolet;
+}
+html{
+scroll-behavior: smooth;
+}
+#contact iframe{
+width: 100%;
+}
+p{
+	display: inline;
+}
+a {
+	text-shadow: 4px 4px grey;
+	text-decoration: none;
+}
+#writings a{
+text-shadow: none!important;	
+}
+#contact a{
+text-shadow: none!important;		
 }
